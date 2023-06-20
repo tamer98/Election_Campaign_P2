@@ -1,4 +1,3 @@
-# Election_Campaign_P2
 # Managing an election campaign during the Corona period
 
 > The project was built in Java
@@ -57,10 +56,10 @@ Any attempt to add an object of an unauthorized type to the Set will result in a
 
 ### `Emphasis on the subjects` 
 ---
-- Inheritance: Inheritance is utilized to establish relationships between classes such as Citizen and Candidate, and BallotBox and its subclasses (CoronaPollingStation and MilitaryPollingStation).
-- Polymorphism: Polymorphism is employed to treat objects of different types as instances of a common superclass, such as treating different types of ballot boxes as BallotBox objects.
-- Object class: The Object class serves as the superclass for all other classes and is overridden in various classes like Citizen, Party, Candidate, BallotBox, CoronaPollingStation, and MilitaryPollingStation to provide custom implementations of methods such as toString and equals.
-These subjects are leveraged to establish class relationships, enable code reuse, and customize behavior in the election management system.
+- Exceptions: Exception handling is implemented to ensure the validity of citizen data. Exceptions are thrown and appropriately handled during the creation of citizens, such as when the identity card has an incorrect number of digits or when the year of birth indicates that the citizen is under 18 years old.
+- Interfaces: A generic polling station interface is introduced, allowing flexibility in handling different types of citizens (regulars, corona patients, and soldiers) who can vote in a polling station. This interface defines the common methods and behavior required for managing the voting process.
+- Generics: A generic set data structure is developed to store the citizen data. This set enforces uniqueness of objects and maintains the order of insertion. It is implemented to prevent adding objects of unauthorized types, resulting in compilation errors.
+
 
 
 ---
