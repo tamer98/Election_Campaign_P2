@@ -54,7 +54,7 @@ Any attempt to add an object of an unauthorized type to the Set will result in a
 
 
 
-### `Emphasis on the subjects` 
+### `Main subjects` 
 ---
 - Exceptions: Exception handling is implemented to ensure the validity of citizen data. Exceptions are thrown and appropriately handled during the creation of citizens, such as when the identity card has an incorrect number of digits or when the year of birth indicates that the citizen is under 18 years old.
 - Interfaces: A generic polling station interface is introduced, allowing flexibility in handling different types of citizens (regulars, corona patients, and soldiers) who can vote in a polling station. This interface defines the common methods and behavior required for managing the voting process.
