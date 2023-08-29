@@ -25,7 +25,13 @@ The project involves managing an election system during the Corona period in an 
 7. Presentation of all parties: Shows details of all the political parties participating in the election.
 8. Elections: Initiates the voting process, allowing each citizen to cast their vote and choose a party.
 9. Showing election results: Presents the vote counts for each party from each ballot box and the overall total.
+<br />
 
+<img width="983" alt="Screenshot 2023-08-29 at 15 31 15" src="https://github.com/tamer98/Election_Campaign_P2/assets/72464761/9375d328-f65b-4762-a454-a5a9e5bd8f94">
+
+<img width="983" alt="Screenshot 2023-08-29 at 15 23 48" src="https://github.com/tamer98/Election_Campaign_P2/assets/72464761/406758d1-48d8-4889-944b-51c86c26adbd"><br />
+
+<img width="983" alt="Screenshot 2023-08-29 at 15 26 47" src="https://github.com/tamer98/Election_Campaign_P2/assets/72464761/db819fb0-0e3e-431e-a2bc-35640a43755a"><br />
 
 ### `Updated` 
 ---
